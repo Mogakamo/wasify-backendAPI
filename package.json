@@ -1,0 +1,26 @@
+{
+    "name": "wasify-backend",
+    "version": "1.0.0",
+    "description": "backend for authentication and database management",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon server"
+    },
+    "author": "Amos Mogaka",
+    "license": "MIT",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "mongoose": "^5.9.14",
+        "cors": "^2.8.5",
+        "eslint": "^7.11.0",
+        "eslint-plugin-import": "^2.22.1",
+        "jest": "^26.5.3",
+        "axios": "^0.20.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}
